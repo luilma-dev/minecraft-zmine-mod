@@ -1,0 +1,6 @@
+{
+  "selectWorld.gameMode.hardcore": "ZMine",
+  "selectWorld.gameMode.hardcore.line1": "Modo de jogo exclusivo ZMine.",
+  "selectWorld.gameMode.hardcore.line2": "Apenas uma vida, terra infértil.",
+  "generator.zmine.wasteland": "ZMine"
+}
