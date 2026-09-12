@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "zmine",
 	"version": "${version}",
-	"name": "Example Mod",
+	"name": "ZMine",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
 		"Me!"
@@ -16,16 +16,16 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"com.zmine.ZMineMod"
 		],
 		"client": [
-			"com.example.client.ExampleModClient"
+			"com.zmine.client.ZMineModClient"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
+		"zmine.mixins.json",
 		{
-			"config": "modid.client.mixins.json",
+			"config": "zmine.client.mixins.json",
 			"environment": "client"
 		}
 	],

@@ -1,9 +1,11 @@
 {
 	"required": true,
-	"package": "com.example.mixin",
+	"package": "com.zmine.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"mixins": [
-		"ExampleMixin"
+		"WastelandWorldGenMixin",
+		"PlayerEntityMixin",
+		"ItemMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

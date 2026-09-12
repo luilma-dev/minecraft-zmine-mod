@@ -1,4 +1,4 @@
-package com.example;
+package com.zmine;
 
 import net.fabricmc.api.ModInitializer;
 
@@ -6,9 +6,12 @@ import net.minecraft.resources.Identifier;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import com.zmine.network.SyncThirstPayload;
+import net.fabricmc.fabric.api.networking.v1.PayloadTypeRegistry;
 
-public class ExampleMod implements ModInitializer {
-	public static final String MOD_ID = "modid";
+@SuppressWarnings("null")
+public class ZMineMod implements ModInitializer {
+	public static final String MOD_ID = "zmine";
 
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
@@ -21,7 +24,9 @@ public class ExampleMod implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("Inicializando Mod ZMine (Apocalipse Zumbi)...");
+		ZMineWorldGen.registerWorldGen();
+		PayloadTypeRegistry.clientboundPlay().register(SyncThirstPayload.TYPE, SyncThirstPayload.CODEC);
 	}
 
 	public static Identifier id(String path) {
