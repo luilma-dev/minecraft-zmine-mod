@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "zmine:block/medkit",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "zmine:block/medkit",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "zmine:block/medkit",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "zmine:block/medkit",
+      "y": 270
+    }
+  }
+}

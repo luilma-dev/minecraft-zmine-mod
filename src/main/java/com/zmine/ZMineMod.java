@@ -25,6 +25,7 @@ public class ZMineMod implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Inicializando Mod ZMine (Apocalipse Zumbi)...");
+		com.zmine.block.ZMineBlocks.registerModBlocks();
 		ZMineWorldGen.registerWorldGen();
 		PayloadTypeRegistry.clientboundPlay().register(SyncThirstPayload.TYPE, SyncThirstPayload.CODEC);
 	}

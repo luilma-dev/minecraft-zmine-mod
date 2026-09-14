@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "zmine-tests",
+  "version": "1.0.0",
+  "name": "ZMine building and inventory tests",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-gametest": ["com.zmine.ZMineGameTests", "com.zmine.CityGameTests", "com.zmine.RoadIntegrationTests"],
+    "fabric-client-gametest": ["com.zmine.ZMineVisualTest"]
+  }
+}

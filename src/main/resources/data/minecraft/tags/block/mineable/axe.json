@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "zmine:box1",
+    "zmine:box2",
+    "zmine:box3",
+    "zmine:box3_1",
+    "zmine:medkit",
+    "zmine:medkit_military",
+    "zmine:medkit_wall"
+  ]
+}

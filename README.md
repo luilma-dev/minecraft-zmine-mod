@@ -1,6 +1,6 @@
 <div align="center">
-  <img src="images/minecraft.svg" alt="Minecraft Logo" height="60" />
-  <img src="images/forge.svg" alt="Forge Logo" height="60" />
+  <img src="images/for%20README/minecraft.svg" alt="Minecraft Logo" height="60" />
+  <img src="images/for%20README/forge.svg" alt="Forge Logo" height="60" />
   <h1>ZMine Mod</h1>
 </div>
 
@@ -10,6 +10,8 @@ O desenvolvimento deste mod demonstra o uso prático da Fabric API e do framewor
 
 ## Arquitetura e Funcionalidades
 
+- **Geração de Mundo e Construções Absurdas**: O mod contém uma geração de mundo avançada com estruturas espalhadas pelo mapa, simulando a complexidade e o visual de um mapa de aventura ou de sobrevivência feito à mão no Minecraft. Contudo, tudo isso é alcançado organicamente através da geração procedural de mundos e estruturas dinâmicas, utilizando as tecnologias de *World Generation* e *Jigsaw* do Minecraft.
+- **Cidades abandonadas e campos**: ruas curvas, rodovias regionais, pontes sobre água, túneis nas montanhas, treze construções pequenas e quatro grandes complexos. Postes espaçados e caídos, tanques abandonados e crateras completam os bairros. As sete caixas personalizadas possuem inventário persistente e loot aleatório. Veja [construções, comandos de teste e configuração](docs/CONSTRUCOES.md).
 - **Mecânica de Sede (Thirst System)**: Introduz um sistema completo de hidratação no loop principal do jogo. O jogador precisa buscar ativamente fontes de água e gerenciar seus níveis de sede ao lado da mecânica padrão de fome.
 - **Interface Customizada (HUD)**: Implementação de uma nova barra renderizada diretamente na interface nativa do Minecraft, utilizando as APIs de sobreposição do Fabric para exibir o nível de hidratação em tempo real.
 - **Geração de Terreno**: Interceptação e alteração na geração procedural de mundos para introduzir novos tipos de biomas com condições de sobrevivência extremas (Wasteland).
@@ -18,9 +20,9 @@ O desenvolvimento deste mod demonstra o uso prático da Fabric API e do framewor
 ## Tecnologias Utilizadas
 
 - **Java**
-- **Fabric Mod Loader**
-- **Fabric API**
+- **Fabric Mod Loader & Fabric API**
 - **SpongePowered Mixin**
+- **Minecraft World Generation API & Jigsaw Blocks**
 - **Gradle**
 
 ## Como Executar

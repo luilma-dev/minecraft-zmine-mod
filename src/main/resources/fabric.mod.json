@@ -3,7 +3,7 @@
 	"id": "zmine",
 	"version": "${version}",
 	"name": "ZMine",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Sobrevivência em cidades devastadas, com estradas, rios, bases militares, ruínas, suprimentos e sistema de sede.",
 	"authors": [
 		"Me!"
 	],
@@ -12,7 +12,7 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"icon": "assets/zmine/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
